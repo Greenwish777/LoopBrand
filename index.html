@@ -156,8 +156,9 @@ dialog.lb::backdrop { background: rgba(5,4,3,.92); }
 
 .tools { border-block: 1px solid var(--line); background: var(--bg-2); }
 .tools-in { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 40px; padding-block: 28px; }
+.tools li img { display: block; height: 30px; width: auto; }
 .tools ul { display: flex; flex-wrap: wrap; gap: 10px 14px; list-style: none; margin: 0; padding: 0; }
-.tools li { font: 700 1.05rem/1 var(--display); letter-spacing: -.01em; padding: 11px 18px; border: 1px solid var(--line); border-radius: 999px; background: var(--bg); }
+.tools li { display: inline-flex; align-items: center; gap: 10px; font: 700 1.05rem/1 var(--display); letter-spacing: -.01em; padding: 9px 18px 9px 10px; border: 1px solid var(--line); border-radius: 999px; background: var(--bg); }
 
 /* Sections */
 section.block { padding-block: 96px; }
@@ -355,7 +356,7 @@ footer { border-top: 1px solid var(--line); padding-block: 36px 44px; color: var
     <div class="wrap tools-in">
       <span class="mono eyebrow">Ferramentas</span>
       <ul>
-        <li>Blender</li><li>DaVinci Resolve</li><li>After Effects</li><li>Premiere Pro</li><li>Illustrator</li><li>Photoshop</li>
+        <li><img src="assets/img/tools/blender.png" alt="" width="30" height="30" loading="lazy"><span>Blender</span></li><li><img src="assets/img/tools/davinci.png" alt="" width="30" height="30" loading="lazy"><span>DaVinci Resolve</span></li><li><img src="assets/img/tools/aftereffects.png" alt="" width="30" height="30" loading="lazy"><span>After Effects</span></li><li><img src="assets/img/tools/premiere.png" alt="" width="30" height="30" loading="lazy"><span>Premiere Pro</span></li><li><img src="assets/img/tools/illustrator.png" alt="" width="30" height="30" loading="lazy"><span>Illustrator</span></li><li><img src="assets/img/tools/photoshop.png" alt="" width="30" height="30" loading="lazy"><span>Photoshop</span></li>
       </ul>
     </div>
   </section>
